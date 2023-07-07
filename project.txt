@@ -1,0 +1,39 @@
+schema : 
+
+doctor : doctorid , doctornamme , gender, birthdate , spectialization , degree , rate ,feedback id  , address , photo , number , work experience , Award , services ,About
+
+clinic : title , doctorid, employeeid, appoimentid, clinicnumber, location id  , price 
+
+Appoinment: doctorname  , Date  , invoice
+
+prescription : doctor , clinic , date , medcineid 
+
+medcine : name , categoryid , companyname , price , expiredate , productiondate , description 
+
+employee : name , specialization , age , salary ,gender
+
+patient : name , address, age , email , bloodgroup , mobile , locationid , photopath , heartrate , temporary, weight , height , bloodpressure, gender ,Type
+
+wishlist : patientid, doctorid 
+
+invoice : doctorid , employeeid , patient id , date , total price ,discount 
+
+Dependent : dependentname , relationship , gender , number , blood group 
+
+feedback : doctorid , comment , patientid , rate , date , 
+
+category : category id , category name 
+
+search : doctorid , clinicid , locationid
+
+location : governmentname , id ,cityid
+
+city : id , name ,zipcode
+
+
+
+login : email , password 
+register :  name , mobile , password 
+
+
+
